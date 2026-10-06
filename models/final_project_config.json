@@ -1,0 +1,36 @@
+{
+    "nombre_proyecto": "Predicción de riesgo cardiovascular a 10 años",
+    "modelos_comparados": [
+        "WHO 2019",
+        "Regresión logística",
+        "Gradient Boosting"
+    ],
+    "variable_objetivo": "EVENTO_CV_10_ANIOS",
+    "variables_predictoras": [
+        "EDAD",
+        "HOMBRE",
+        "FUMADOR_ACTUAL",
+        "PRESION_SISTOLICA",
+        "IMC"
+    ],
+    "participantes_entrenamiento": 2596,
+    "participantes_test": 650,
+    "eventos_entrenamiento": 307,
+    "eventos_test": 77,
+    "prevalencia_entrenamiento_pct": 11.825885978428351,
+    "prevalencia_test_pct": 11.846153846153847,
+    "umbrales_finales": {
+        "WHO 2019": 0.1,
+        "Regresión logística": 0.1122661643825956,
+        "Gradient Boosting": 0.10734284086732372
+    },
+    "criterio_umbrales": {
+        "WHO 2019": "Umbral fijado antes del test",
+        "Regresión logística": "Índice de Youden en entrenamiento",
+        "Gradient Boosting": "Índice de Youden en entrenamiento"
+    },
+    "mejor_modelo_global_test": "Gradient Boosting",
+    "modelo_mas_sensible_test": "WHO 2019",
+    "modelo_mas_interpretable": "Regresión logística",
+    "nota_metodologica": "El conjunto de test se utilizó únicamente para evaluación final. No se ajustaron hiperparámetros ni se modificaron umbrales usando el test."
+}

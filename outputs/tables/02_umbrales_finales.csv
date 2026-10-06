@@ -1,0 +1,4 @@
+﻿,MODELO,UMBRAL_FINAL_PCT,ORIGEN_DEL_UMBRAL
+0,WHO 2019,10.0,Seleccionado antes del test
+1,Regresión logística,11.22661643825956,Seleccionado antes del test
+2,Gradient Boosting,10.734284086732373,Seleccionado antes del test

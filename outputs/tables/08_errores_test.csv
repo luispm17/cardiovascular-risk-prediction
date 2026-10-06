@@ -1,0 +1,4 @@
+﻿MODELO,FALSOS_NEGATIVOS,FALSOS_POSITIVOS
+WHO 2019,11,251
+Regresión logística,17,204
+Gradient Boosting,15,203

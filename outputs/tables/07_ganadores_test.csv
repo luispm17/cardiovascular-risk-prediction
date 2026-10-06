@@ -1,0 +1,10 @@
+﻿Criterio;Modelo ganador
+Mayor ROC-AUC;Gradient Boosting
+Mayor Average Precision;Gradient Boosting
+Menor Brier score;Gradient Boosting
+Mayor sensibilidad;WHO 2019
+Mayor especificidad;Gradient Boosting
+Mayor F1-score;Gradient Boosting
+Mayor balanced accuracy;Gradient Boosting
+Menor número de falsos negativos;WHO 2019
+Menor número de falsos positivos;Gradient Boosting

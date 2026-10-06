@@ -1,0 +1,4 @@
+﻿Modelo;ROC-AUC;Average Precision;Brier score;Sensibilidad;Especificidad;F1-score;Balanced accuracy;Falsos negativos;Falsos positivos
+WHO 2019;0.7735;0.3588;0.0930;0.8571;0.5620;0.3350;0.7095;11;251
+Regresión logística;0.7752;0.3501;0.0912;0.7792;0.6440;0.3519;0.7116;17;204
+Gradient Boosting;0.7973;0.3854;0.0885;0.8052;0.6457;0.3626;0.7255;15;203
